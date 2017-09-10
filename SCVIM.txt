@@ -1,0 +1,93 @@
+
+This is the text file which include all the vim shortcut.
+
+1. Basically vim include two modes, normal and command.
+   Normal - i
+   Command - ESC + command
+
+2. To move in vim editor
+   Enter in Command mode, then type:
+   h - left
+   l - right
+   j - down
+   k - up
+
+3. To move in word
+   Enter in Command mode, then type:
+   w - first character 
+   e - last character
+   b - back to either first/last character
+
+4. To move in multiple lines
+   Enter in Command mode, then type:
+   eg. 5w - move to the 5th position of first character word
+   eg. 5k - move upward 5 times 
+
+5. To insert text multiple time
+   Enter in Command mode, then type:
+   eg. 10iHello + ESC - print Hello x 10 times
+
+6. To search character
+   Enter in Command mode, then type:
+   eg. f+h - to find h in that line
+   eg. 5+f+w - to find the fifth 'w' in that line
+
+7. Move/toggle to the matching parentheses
+   Enter in Command mode, then type:
+   eg. shift + 5 == %
+   
+8. Move to the starting/ending of the line
+   Enter in Command mode, then type:
+   eg. 0 - begining of the line
+   eg. shift + 4 == $ - ending of the line
+
+9. Find the word under hightlight(cursor) 
+   Enter in Command mode, then type:
+   eg. shift + 8 == * - to move to the next search word
+   eg. shift + 3 == # - to move to before the search word
+
+10.Move to the nth lines of text
+   Enter in Command mode, then type:
+   eg. gg - move to the beginning of the line
+   eg. G - move to the ending of the line
+   eg. 10G - move to the 10 lines
+
+11.To search word in the text
+   Enter in Command mode, then type:
+   eg. /move
+   - use n/N to move in between the search word position
+
+12.To create new line
+   Enter in Command mode, then type:
+   eg. o/O - to create new line, then can start typing in insert mode
+
+13.To delete character under cursor
+   Enter in Command mode, then type:
+   eg. x/X 
+
+14.To replace a character
+   Enter in Command mode, then type:
+   eg. r -> then enter the character wanted to be replaced
+
+15.To delete
+   Enter in Command mode, then type:
+   eg. dd - delete the whole line
+   eg. dw - delete the first word toward to right of the cursor
+   eg. d5e - delete the 5 words toward the right of the cursor
+
+16.To do repeative previous command
+   Enter in Command mode, then type:
+   eg. . - to repeat
+
+17.To delete multiple line of text with selection
+   Enter in Command mode, then type:
+   eg. v + e + h,j,k,l to select then d to delete.
+ 
+18.Tips:
+   :q  - quit 
+   :q! - quit without save
+   :w  - save
+   :wq - save and quit
+    u  - undo one time only
+   :ctrl + R - redo
+   :help - to get help 
